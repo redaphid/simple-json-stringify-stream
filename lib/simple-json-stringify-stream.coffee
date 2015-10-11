@@ -4,9 +4,7 @@ class JSONStringifyStream extends Transform
     super objectMode: true
 
   _transform:(chunk, enc, next) =>
-    console.log chunk
-    jsonString = JSON.stringify chunk
+    @push JSON.stringify(chunk)
     next()
-    @push jsonString
 
 module.exports = JSONStringifyStream
