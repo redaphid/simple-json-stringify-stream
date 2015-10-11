@@ -1,0 +1,37 @@
+{
+  "name": "simple-json-stringify-stream",
+  "version": "1.0.0",
+  "description": "A dead simple json stringifying stream. Assumes each chunk is valid json",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redaphid/simple-json-stringify-stream.git"
+  },
+  "keywords": [
+    "json",
+    "stream",
+    "stringify"
+  ],
+  "author": "redaphid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/redaphid/simple-json-stringify-stream/issues"
+  },
+  "homepage": "https://github.com/redaphid/simple-json-stringify-stream#readme",
+  "dependencies": {
+    "coffee-script": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "coffee-coverage": "^0.6.3",
+    "coffee-script": "^1.10.0",
+    "istanbul": "^0.3.22",
+    "mocha": "^2.3.3",
+    "mocha-istanbul": "^0.2.0",
+    "sinon": "^1.17.1",
+    "sinon-chai": "^2.8.0"
+  }
+}
